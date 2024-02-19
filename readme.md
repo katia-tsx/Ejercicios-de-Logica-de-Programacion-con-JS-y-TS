@@ -2,7 +2,7 @@
 
 ¡Bienvenido! En este repositorio, te invito a explorar una serie de desafíos diseñados para mejorar tus habilidades en JavaScript y TypeScript.
 
->[!IMPORTANT] Consejo💡: Asegúrate de tener configurado tu entorno de desarrollo para trabajar con JavaScript o TypeScript antes de comenzar.
+>[!important] Consejo💡: Asegúrate de tener configurado tu entorno de desarrollo para trabajar con JavaScript o TypeScript antes de comenzar.
 
 ## 📂 Estructuras Secuenciales 📂
 
@@ -24,7 +24,7 @@
 ### 5. Conversión de Grados Fahrenheit a Celsius 🌡️
 - **Descripción**: Convierte grados Fahrenheit a Celsius utilizando la fórmula C = (F-32)*5/9.
   
->[!TIP] Aviso⚠️: ¡Recuerda siempre seguir las instrucciones de cada ejercicio y tener en cuenta los casos de borde!
+>[!tip] Aviso⚠️: ¡Recuerda siempre seguir las instrucciones de cada ejercicio y tener en cuenta los casos de borde!
 
 
 ## 🔄 Estructuras Alternativas 🔄
@@ -51,4 +51,4 @@
 
 ¡Estos desafíos te esperan para desatar tu creatividad y potenciar tus habilidades de programación! ¿Estás listo para el desafío?
 
->[!NOTE] Nota📝: Si tienes alguna pregunta o encuentras algún problema, no dudes en crear un issue en este repositorio. Estamos aquí para ayudarte.
+>[!note] Nota📝: Si tienes alguna pregunta o encuentras algún problema, no dudes en crear un issue en este repositorio. Estamos aquí para ayudarte.
