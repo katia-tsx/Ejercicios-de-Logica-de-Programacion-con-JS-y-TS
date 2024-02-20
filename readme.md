@@ -2,7 +2,8 @@
 
 ¡Bienvenido! En este repositorio, te invito a explorar una serie de desafíos diseñados para mejorar tus habilidades en JavaScript y TypeScript.
 
->[!important] Consejo💡: Asegúrate de tener configurado tu entorno de desarrollo para trabajar con JavaScript o TypeScript antes de comenzar.
+>[!IMPORTANT] 
+>Consejo💡: Asegúrate de tener configurado tu entorno de desarrollo para trabajar con JavaScript o TypeScript antes de comenzar.
 
 ## 📂 Estructuras Secuenciales 📂
 
@@ -24,7 +25,8 @@
 ### 5. Conversión de Grados Fahrenheit a Celsius 🌡️
 - **Descripción**: Convierte grados Fahrenheit a Celsius utilizando la fórmula C = (F-32)*5/9.
   
->[!tip] Aviso⚠️: ¡Recuerda siempre seguir las instrucciones de cada ejercicio y tener en cuenta los casos de borde!
+>[!TIP] 
+>Aviso⚠️: ¡Recuerda siempre seguir las instrucciones de cada ejercicio y tener en cuenta los casos de borde!
 
 
 ## 🔄 Estructuras Alternativas 🔄
@@ -52,6 +54,17 @@
 ### 1. Números Pares entre dos Valores ↕️
 - **Descripción**: Imprime todos los números pares entre dos valores ingresados por el usuario.
 
-¡Estos desafíos te esperan para desatar tu creatividad y potenciar tus habilidades de programación! ¿Estás listo para el desafío?
+### 2. Calcule la Potencia sin tener el signo de potencia
+- **Descripción**: Escribe un programa que dados dos números, uno real (base) y un entero positivo (exponente), saque por pantalla el resultado de la potencia. No se puede utilizar el operador de potencia.
+  
+### 3. Calcule el sueldo que recibira un empleado en una semana de trabajo
+- **Descripción**: Una empresa tiene el registro de las horas que trabaja diariamente un empleado durante la semana (seis días) y 
+requiere determinar el total de éstas, así como el sueldo que recibirá por las horas trabajadas.
 
->[!note] Nota📝: Si tienes alguna pregunta o encuentras algún problema, no dudes en crear un issue en este repositorio. Estamos aquí para ayudarte.
+### 4. Calcula el pago total de x empleados con x sueldo en x tiempo 
+- **Descripción**: Una empresa les paga a sus empleados con base en las horas trabajadas en la semana. Para esto, se registran los días que trabajó y las horas de cada día. Realice un algoritmo para determinar el sueldo semanal de N trabajadores y además calcule cuánto pagó la empresa por los N empleados.
+>[!NOTE]
+> 📝: Si tienes alguna pregunta o encuentras algún problema, no dudes en crear un issue en este repositorio. Estamos aquí para ayudarte.
+
+
+¡Estos desafíos te esperan para desatar tu creatividad y potenciar tus habilidades de programación! ¿Estás listo para el desafío?

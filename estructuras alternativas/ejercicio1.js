@@ -6,17 +6,16 @@ function compararNumeros(num1, num2) {
 
     if (num1 === num2) {
         return `${num1} es igual a ${num2}`;
-    } else if (num1 > num2) {
+    } if (num1 > num2) {
         return `${num1} es mayor que ${num2}`;
-    } else {
-        return `${num2} es mayor que ${num1}`;
     }
+    return `${num2} es mayor que ${num1}`;
 }
 
 try {
     const num1 = 9;
     const num2 = 25;
-    const resultado = compararNumeros(num1, num2);
+    const resultado = compararNumeros('errr', num2);
     console.log(resultado);
 } catch (error) {
     console.error('Error:', error.message);

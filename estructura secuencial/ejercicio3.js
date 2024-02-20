@@ -1,7 +1,6 @@
     //dados los catetos de un triángulo rectángulo, calcular su hipotenusa.
 function calcularHipotenusa(cateto1, cateto2) {
-    const hipotenusa = Math.sqrt(cateto1 ** 2 + cateto2 ** 2);
-    return hipotenusa;
+    return Math.sqrt(cateto1 ** 2 + cateto2 ** 2);
 }
 
 const cateto1 = 3;

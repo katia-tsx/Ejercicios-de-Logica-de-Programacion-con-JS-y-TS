@@ -1,15 +1,10 @@
 //Dados dos números, mostrar la suma, resta, división y multiplicación de ambos.
-function realizarOperaciones(num1, num2) {
-    const suma = num1 + num2;
-    const resta = num1 - num2;
-    const division = num1 / num2;
-    const multiplicacion = num1 * num2;
-    
+function realizarOperaciones(num1, num2) {    
     return {
-        suma: suma,
-        resta: resta,
-        division: division,
-        multiplicacion: multiplicacion
+        suma: num1 + num2,
+        resta: num1 - num2,
+        division: num1 / num2,
+        multiplicacion: num1 * num2
     };
 }
 
