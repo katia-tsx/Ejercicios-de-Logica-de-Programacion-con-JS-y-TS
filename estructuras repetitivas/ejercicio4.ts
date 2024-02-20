@@ -2,11 +2,11 @@
 los días que trabajó y las horas de cada día. Realice un algoritmo para determinar el sueldo semanal de N trabajadores 
 y además calcule cuánto pagó la empresa por los N empleados.*/
 
-function sueldoEmpleados(){
+function sueldoEmpleados(empleados, dia, Hora, sueldoHora){
     return dia * empleados * sueldoHora * Hora
 }
 
-function empleadosSueldosIndi(){
+function empleadosSueldosIndi(dia, Hora, sueldoHora){
     return dia * Hora *  sueldoHora
 }
 
@@ -15,6 +15,7 @@ const Hora = 8;
 const empleados = 12;
 const sueldoHora = 1220;
 const dia = 6 ;
+const individual = empleadosSueldosIndi(dia, Hora, sueldoHora)
+const grupal = sueldoEmpleados(empleados, dia, Hora, sueldoHora)
 
-
-console.log(`El total por empleado en 1 semana es de: ${ empleadosSueldosIndi} pero por todos los empleados son -${empleados * Hora * dia * sueldoHora} para la empresa`)
+console.log(`El total por empleado en 1 semana es de: ${ individual} pero por todos los empleados son -${grupal} para la empresa por semana`)
