@@ -1,21 +1,30 @@
-/*Una empresa les paga a sus empleados con base en las horas trabajadas en la semana. Para esto, se registran
-los días que trabajó y las horas de cada día. Realice un algoritmo para determinar el sueldo semanal de N trabajadores 
-y además calcule cuánto pagó la empresa por los N empleados.*/
-
-function sueldoEmpleados(empleados, dia, Hora, sueldoHora){
-    return dia * empleados * sueldoHora * Hora
+type Pago = {
+    horasTrabajadas: number;
+    sueldoPorHora: number;
+    diasTrabajados: number;
 }
 
-function empleadosSueldosIndi(dia, Hora, sueldoHora){
-    return dia * Hora *  sueldoHora
+function calcularSueldoIndividual(pago: Pago): number {
+    return pago.horasTrabajadas * pago.sueldoPorHora * pago.diasTrabajados;
 }
 
+function calcularSueldoTotal(empleados: Pago[]): number {
+    let sueldoTotal = 0;
+    for (const empleado of empleados) {
+        sueldoTotal += calcularSueldoIndividual(empleado);
+    }
+    return sueldoTotal;
+}
 
-const Hora = 8;
-const empleados = 12;
-const sueldoHora = 1220;
-const dia = 6 ;
-const individual = empleadosSueldosIndi(dia, Hora, sueldoHora)
-const grupal = sueldoEmpleados(empleados, dia, Hora, sueldoHora)
+const horasTrabajadas = 8;
+const sueldoPorHora = 1220;
+const diasTrabajados = 6;
 
-console.log(`El total por empleado en 1 semana es de: ${ individual} pero por todos los empleados son -${grupal} para la empresa por semana`)
+const empleados: Pago[] = [
+    { horasTrabajadas, sueldoPorHora, diasTrabajados },
+    { horasTrabajadas: 7, sueldoPorHora: 1300, diasTrabajados: 5 } 
+];
+
+const sueldoTotal = calcularSueldoTotal(empleados);
+
+console.log(`El total por empleado en 1 semana es de: ${calcularSueldoIndividual(empleados[0])}, pero por todos los empleados son ${sueldoTotal} para la empresa por semana.`);
