@@ -3,7 +3,7 @@
 ¡Bienvenido! En este repositorio, te invito a explorar una serie de desafíos diseñados para mejorar tus habilidades en JavaScript y TypeScript.
 
 >[!IMPORTANT] 
->Consejo💡: Asegúrate de tener configurado tu entorno de desarrollo para trabajar con JavaScript o TypeScript antes de comenzar.
+>Consejo💡: Asegúrate de tener configurado tu entorno de desarrollo para trabajar con JavaScript o TypeScript antes de comenzar, de preferencia uso Quokka para correr ts en mi terminal (Para instalar solo ve a visual studio code, al apartado de extensiones y busca **Quokka** Luego dale a instalar, y dentro de tu archivo presiona la tecla **F1** y start on current file.) Espero y te sirva ^_^.
 
 ## 📂 Estructuras Secuenciales 📂
 
