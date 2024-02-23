@@ -63,6 +63,12 @@ requiere determinar el total de éstas, así como el sueldo que recibirá por la
 
 ### 4. Calcula el pago total de x empleados con x sueldo en x tiempo 
 - **Descripción**: Una empresa les paga a sus empleados con base en las horas trabajadas en la semana. Para esto, se registran los días que trabajó y las horas de cada día. Realice un algoritmo para determinar el sueldo semanal de N trabajadores y además calcule cuánto pagó la empresa por los N empleados.
+
+## 🧾 Arreglos 🧾
+
+### 1. Vectores con numeros aleatorios, al cubo y al cuadrado
+- **Descripción** Realizar un programa que defina un vector llamado “vector_numeros” de 10 enteros, a continuación lo inicialice con valores aleatorios (del 1 al 10) y posteriormente muestre en pantalla cada elemento del vector junto con su cuadrado y su cubo.
+
 >[!NOTE]
 > 📝: Si tienes alguna pregunta o encuentras algún problema, no dudes en crear un issue en este repositorio. Estamos aquí para ayudarte.
 
