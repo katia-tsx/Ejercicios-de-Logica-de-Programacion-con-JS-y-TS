@@ -69,6 +69,10 @@ requiere determinar el total de éstas, así como el sueldo que recibirá por la
 ### 1. Vectores con numeros aleatorios, al cubo y al cuadrado
 - **Descripción** Realizar un programa que defina un vector llamado “vector_numeros” de 10 enteros, a continuación lo inicialice con valores aleatorios (del 1 al 10) y posteriormente muestre en pantalla cada elemento del vector junto con su cuadrado y su cubo.
 
+### 2. Vector de 5 elementos que se lean en orden derecho e inverso
+- **Descripción:** Crear un vector de 5 elementos de cadenas de caracteres, inicializa el vector con datos leídos por el teclado. Copia los elementos del vector en otro vector pero en orden inverso, y muéstralo por la pantalla.
+
+
 >[!NOTE]
 > 📝: Si tienes alguna pregunta o encuentras algún problema, no dudes en crear un issue en este repositorio. Estamos aquí para ayudarte.
 
