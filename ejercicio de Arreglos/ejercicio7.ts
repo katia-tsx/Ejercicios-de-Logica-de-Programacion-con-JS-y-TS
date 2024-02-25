@@ -1,4 +1,5 @@
-/*Crear un programa que lea los precios de 5 artículos y las cantidades vendidas por una empresa en sus 4 sucursales. Informar:
+/*Crear un programa que lea los precios de 5 artículos y las cantidades vendidas por una empresa en sus 4 sucursales. 
+Informar:
 
 Las cantidades totales de cada articulo.
 La cantidad de artículos en la sucursal 2.
