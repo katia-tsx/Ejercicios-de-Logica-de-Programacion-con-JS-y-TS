@@ -5,7 +5,7 @@ const tamañoVector: number = 10;
 
 const numerosInput: number[] = [5, 8, 3, -1, 2, 7, 4];
 
-function main() {
+function vectores() {
     const vector: number[] = [];
 
     for (let i = 0; i < tamañoVector && i < numerosInput.length; i++) {
@@ -19,4 +19,4 @@ function main() {
     console.log(vector);
 }
 
-main();
+vectores();

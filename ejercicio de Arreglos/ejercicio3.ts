@@ -16,7 +16,7 @@ function calcularEstadisticasDeNotas(notas: Nota[]): [Nota[], Nota, Nota, Nota] 
     return [notas, media, maxima, minima];
 }
 
-function main() {
+function devolver() {
     const notas: Nota[] = [];
     
     for (let i = 0; i < 5; i++) {
@@ -34,5 +34,5 @@ function main() {
     console.log(`Nota más baja: ${notaMinima}`);
 }
 
-main();
+devolver();
 
