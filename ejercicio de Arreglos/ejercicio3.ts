@@ -5,28 +5,22 @@ A continuación debe mostrar todas las notas, la nota media, la nota más alta q
 
 type Nota = number;
 
-function obtenerNota(indice: number): Nota {
-    return Math.floor(Math.random() * 10) + 1;
+function obtenerNotaAleatoria(): Nota {
+    return Math.floor(Math.random() * 11); 
 }
 
-function calcularMedia(notas: Nota[]): number {
-    const suma = notas.reduce((acumulador, nota) => acumulador + nota, 0);
-    return suma / notas.length;
-}
-
-function obtenerNotaMaxima(notas: Nota[]): Nota {
-    return Math.max(...notas);
-}
-
-function obtenerNotaMinima(notas: Nota[]): Nota {
-    return Math.min(...notas);
+function calcularEstadisticasDeNotas(notas: Nota[]): [Nota[], Nota, Nota, Nota] {
+    const maxima = Math.max(...notas);
+    const minima = Math.min(...notas);
+    const media = notas.reduce((acumulador, nota) => acumulador + nota, 0) / notas.length;
+    return [notas, media, maxima, minima];
 }
 
 function main() {
     const notas: Nota[] = [];
-
+    
     for (let i = 0; i < 5; i++) {
-        notas.push(obtenerNota(i + 1));
+        notas.push(obtenerNotaAleatoria());
     }
 
     console.log("Notas obtenidas:");
@@ -34,14 +28,11 @@ function main() {
         console.log(`Nota ${indice + 1}: ${nota}`);
     });
 
-    const media = calcularMedia(notas);
+    const [todasLasNotas, media, notaMaxima, notaMinima] = calcularEstadisticasDeNotas(notas);
     console.log(`Nota media: ${media}`);
-
-    const notaMaxima = obtenerNotaMaxima(notas);
     console.log(`Nota más alta: ${notaMaxima}`);
-
-    const notaMinima = obtenerNotaMinima(notas);
     console.log(`Nota más baja: ${notaMinima}`);
 }
 
 main();
+
